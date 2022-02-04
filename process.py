@@ -1,7 +1,4 @@
 # This opens the file and returns a file object
-from multiprocessing.sharedctypes import Value
-
-
 log_file = open("um-server-01.txt")
 
 # This is a function that loops through the file objects
